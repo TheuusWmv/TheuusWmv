@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="220" viewBox="0 0 980 220" role="img" aria-labelledby="title desc">
+  <title id="title">Meta Tech Provider</title>
+  <desc id="desc">Card cinza minimalista com glassmorphism, contraste interno e glow azul na borda.</desc>
+  <defs>
+    <linearGradient id="backdrop" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#09090b"/>
+      <stop offset="0.48" stop-color="#202024"/>
+      <stop offset="1" stop-color="#52525b"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="0.42" stop-color="#ffffff" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.035"/>
+    </linearGradient>
+    <linearGradient id="innerPanel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3f3f46" stop-opacity="0.58"/>
+      <stop offset="0.52" stop-color="#18181b" stop-opacity="0.72"/>
+      <stop offset="1" stop-color="#27272a" stop-opacity="0.62"/>
+    </linearGradient>
+    <linearGradient id="blueEdge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#93c5fd" stop-opacity="0.86"/>
+      <stop offset="0.5" stop-color="#60a5fa" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#1d4ed8" stop-opacity="0.72"/>
+    </linearGradient>
+    <radialGradient id="whiteSheen" cx="26%" cy="18%" r="58%">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="0.48" stop-color="#ffffff" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="edgeBlueHalo" cx="50%" cy="50%" r="64%">
+      <stop offset="0.62" stop-color="#60a5fa" stop-opacity="0"/>
+      <stop offset="0.86" stop-color="#60a5fa" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#1d4ed8" stop-opacity="0.3"/>
+    </radialGradient>
+    <filter id="outerGlow" x="-14%" y="-38%" width="128%" height="176%">
+      <feDropShadow dx="0" dy="0" stdDeviation="7" flood-color="#93c5fd" flood-opacity="0.46"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="18" flood-color="#2563eb" flood-opacity="0.34"/>
+      <feDropShadow dx="0" dy="22" stdDeviation="28" flood-color="#000000" flood-opacity="0.48"/>
+    </filter>
+    <filter id="innerShadow" x="-8%" y="-25%" width="116%" height="150%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000000" flood-opacity="0.36"/>
+    </filter>
+    <clipPath id="round">
+      <rect width="980" height="220" rx="28"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="980" height="220" fill="url(#backdrop)"/>
+    <rect width="980" height="220" fill="url(#whiteSheen)"/>
+    <rect width="980" height="220" fill="url(#edgeBlueHalo)"/>
+    <rect x="20" y="20" width="940" height="180" rx="30" fill="none" stroke="url(#blueEdge)" stroke-width="1.5" filter="url(#outerGlow)"/>
+    <rect x="36" y="34" width="908" height="152" rx="26" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.18" filter="url(#innerShadow)"/>
+    <rect x="62" y="58" width="856" height="104" rx="22" fill="url(#innerPanel)" stroke="#ffffff" stroke-opacity="0.12"/>
+    <path d="M98 82 C230 105 320 62 466 82 C616 103 748 76 878 96" fill="none" stroke="#ffffff" stroke-opacity="0.09" stroke-width="1.2"/>
+    <path d="M104 143 C252 116 350 152 488 133 C636 112 748 136 872 114" fill="none" stroke="#ffffff" stroke-opacity="0.11" stroke-width="1.2"/>
+    <path d="M64 59 L916 59" stroke="#ffffff" stroke-opacity="0.08"/>
+    <g text-anchor="middle" font-family="Arial, Helvetica, sans-serif">
+      <text x="490" y="105" fill="#ffffff" font-size="45" font-weight="800" letter-spacing="0">Meta Tech Provider</text>
+      <text x="490" y="138" fill="#e4e4e7" font-size="18" font-weight="800" letter-spacing="3.2">INTEGRAÇÕES</text>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="979" height="219" rx="27.5" fill="none" stroke="#ffffff" stroke-opacity="0.14"/>
+</svg>
